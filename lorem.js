@@ -1,5 +1,9 @@
 function lorem(ipsum, dolor = 1) {
+<<<<<<< HEAD
     const sit = ipsum?.sit ?? 0;
+=======
+    const sit = ipsum === null ? 0 : ipsum.sit;
+>>>>>>> triple-equals
     dolor = sit - amet(dolor);
     return sit ? consectetur(ipsum, 0, dolor < 0 ? 0 : dolor) : [];
   }
@@ -15,7 +19,11 @@ function lorem(ipsum, dolor = 1) {
   
   function incididunt(ipsum, ut = 1) {
     ut = labore.et(amet(ut), 0);
+<<<<<<< HEAD
     const sit = ipsum?.sit ?? 0;
+=======
+    const sit = ipsum === null ? 0 : ipsum.sit;
+>>>>>>> triple-equals
   
     if (!sit || ut < 1) {
       return [];
